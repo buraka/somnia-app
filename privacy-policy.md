@@ -1,6 +1,6 @@
 # Privacy Policy for Somnia
 
-**Last updated: March 17, 2026**
+**Last updated: March 18, 2026**
 
 Somnia ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we handle information in connection with the Somnia app ("App").
 
@@ -17,9 +17,12 @@ Somnia is designed with privacy in mind. Here is what we collect and how:
 ### Data Processed by Third Parties
 - **Voice transcription and AI analysis**: When you use voice recording or AI analysis features, your dream content is sent to Google Gemini API for processing. This data is used solely to provide the transcription and analysis service. Please refer to [Google's Privacy Policy](https://policies.google.com/privacy) for details on how Google handles this data.
 
+### Advertising and Analytics
+- **Google AdMob**: We display rewarded video ads to free-tier users. AdMob may collect device identifiers and usage data for ad personalization. Please refer to [Google's Advertising Policy](https://policies.google.com/technologies/ads) for details.
+- **Firebase Analytics**: We use Firebase Analytics to collect anonymous usage statistics (e.g., feature usage frequency, crash reports). This data does not include your dream content or personally identifiable information. Please refer to [Firebase Privacy](https://firebase.google.com/support/privacy) for details.
+
 ### Data We Do NOT Collect
 - We do not collect your name, email address, or any personally identifiable information.
-- We do not use analytics or tracking SDKs.
 - We do not share your dream content with anyone other than the AI service provider described above.
 - We do not sell your data.
 
