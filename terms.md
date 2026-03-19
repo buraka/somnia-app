@@ -1,3 +1,8 @@
+---
+layout: default
+title: Terms of Use
+---
+
 # Terms of Use for Somnia
 
 **Last updated: March 18, 2026**

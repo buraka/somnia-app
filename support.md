@@ -1,3 +1,8 @@
+---
+layout: default
+title: Support
+---
+
 # Somnia — Support
 
 Welcome to Somnia support. We're here to help!
