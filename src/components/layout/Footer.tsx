@@ -41,6 +41,12 @@ export default function Footer() {
               >
                 {t.footer.features}
               </a>
+              <Link
+                href="/blog"
+                className="text-sm text-moonlight/60 hover:text-soft-white transition-colors"
+              >
+                {t.blog.title}
+              </Link>
             </div>
             <div className="flex flex-col gap-3">
               <span className="text-xs font-medium text-moonlight/40 uppercase tracking-wider">
