@@ -2,29 +2,29 @@ import { Metadata } from "next";
 import LegalPage from "@/components/layout/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Terms of Use — Somnia",
+  title: "Terms of Use — Morpheo",
 };
 
 export default function Terms() {
   return (
-    <LegalPage title="Terms of Use for Somnia">
+    <LegalPage title="Terms of Use for Morpheo">
       <p><strong>Last updated: March 18, 2026</strong></p>
-      <p>Please read these Terms of Use (&quot;Terms&quot;) carefully before using the Somnia app (&quot;App&quot;).</p>
+      <p>Please read these Terms of Use (&quot;Terms&quot;) carefully before using the Morpheo app (&quot;App&quot;).</p>
 
       <hr />
 
       <h2>1. Acceptance of Terms</h2>
-      <p>By downloading, installing, or using Somnia, you agree to be bound by these Terms. If you do not agree, do not use the App.</p>
+      <p>By downloading, installing, or using Morpheo, you agree to be bound by these Terms. If you do not agree, do not use the App.</p>
 
       <hr />
 
       <h2>2. Description of Service</h2>
-      <p>Somnia is a dream journaling app that allows you to record dreams via voice or text, and uses AI to provide symbolic analysis, emotional tone detection, and pattern tracking. The App includes a free tier with limited features and a Premium subscription with additional capabilities.</p>
+      <p>Morpheo is a dream journaling app that allows you to record dreams via voice or text, and uses AI to provide symbolic analysis, emotional tone detection, and pattern tracking. The App includes a free tier with limited features and a Premium subscription with additional capabilities.</p>
 
       <hr />
 
       <h2>3. Subscriptions and Purchases</h2>
-      <p>Somnia offers the following in-app purchase options:</p>
+      <p>Morpheo offers the following in-app purchase options:</p>
       <ul>
         <li><strong>Monthly Subscription</strong>: Auto-renews each month until cancelled.</li>
         <li><strong>Yearly Subscription</strong>: Auto-renews each year until cancelled.</li>
@@ -103,7 +103,7 @@ export default function Terms() {
       <p>If you have any questions about these Terms, please contact us at:</p>
       <p>
         <strong>Email</strong>: <a href="mailto:support@somniaapp.com">support@somniaapp.com</a><br />
-        <strong>GitHub</strong>: <a href="https://github.com/buraka/somnia-app">github.com/buraka/somnia-app</a>
+        <strong>GitHub</strong>: <a href="https://github.com/buraka/morpheo-app">github.com/buraka/morpheo-app</a>
       </p>
     </LegalPage>
   );

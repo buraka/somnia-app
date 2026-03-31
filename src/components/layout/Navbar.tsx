@@ -98,14 +98,14 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <img
-            src="/somnia-app/logo.png"
-            alt="Somnia logo"
+            src="/morpheo-app/logo.png"
+            alt="Morpheo logo"
             width={32}
             height={32}
             className="rounded-lg group-hover:scale-110 transition-transform"
           />
           <span className="font-[family-name:var(--font-display)] text-lg font-semibold text-soft-white">
-            Somnia
+            Morpheo
           </span>
         </Link>
 

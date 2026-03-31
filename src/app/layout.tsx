@@ -18,21 +18,21 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Somnia — AI Dream Journal | Your Dreams, Decoded",
+  title: "Morpheo — AI Dream Journal | Your Dreams, Decoded",
   description:
     "Capture, analyze, and understand your dreams with AI. Voice recording, pattern detection, and personalized insights. Free on iOS & Apple Watch.",
-  metadataBase: new URL("https://buraka.github.io/somnia-app"),
+  metadataBase: new URL("https://buraka.github.io/morpheo-app"),
   openGraph: {
-    title: "Somnia — AI Dream Journal | Your Dreams, Decoded",
+    title: "Morpheo — AI Dream Journal | Your Dreams, Decoded",
     description:
       "Capture, analyze, and understand your dreams with AI. Voice recording, pattern detection, and personalized insights.",
-    url: "https://buraka.github.io/somnia-app",
-    siteName: "Somnia",
+    url: "https://buraka.github.io/morpheo-app",
+    siteName: "Morpheo",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Somnia — AI Dream Journal",
+    title: "Morpheo — AI Dream Journal",
     description:
       "Capture, analyze, and understand your dreams with AI. Free on iOS & Apple Watch.",
   },

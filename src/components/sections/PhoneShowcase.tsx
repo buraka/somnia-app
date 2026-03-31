@@ -3,11 +3,11 @@
 import { motion } from "framer-motion";
 
 const phones = [
-  { src: "/somnia-app/screenshots/recording.png", alt: "Voice recording a dream with waveform visualization" },
-  { src: "/somnia-app/screenshots/journal-list.png", alt: "Dream Journal list showing recent dreams" },
-  { src: "/somnia-app/screenshots/ai-analysis.png", alt: "AI Analysis with symbols and emotion breakdown" },
-  { src: "/somnia-app/screenshots/patterns.png", alt: "Dream statistics and pattern detection" },
-  { src: "/somnia-app/screenshots/map.png", alt: "Dream map showing connections between dreams" },
+  { src: "/morpheo-app/screenshots/recording.png", alt: "Voice recording a dream with waveform visualization" },
+  { src: "/morpheo-app/screenshots/journal-list.png", alt: "Dream Journal list showing recent dreams" },
+  { src: "/morpheo-app/screenshots/ai-analysis.png", alt: "AI Analysis with symbols and emotion breakdown" },
+  { src: "/morpheo-app/screenshots/patterns.png", alt: "Dream statistics and pattern detection" },
+  { src: "/morpheo-app/screenshots/map.png", alt: "Dream map showing connections between dreams" },
 ];
 
 export default function PhoneShowcase() {

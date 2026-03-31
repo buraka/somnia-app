@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://buraka.github.io/somnia-app/sitemap.xml",
+    sitemap: "https://buraka.github.io/morpheo-app/sitemap.xml",
   };
 }

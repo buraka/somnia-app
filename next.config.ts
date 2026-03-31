@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: "/somnia-app",
+  basePath: "/morpheo-app",
   images: {
     unoptimized: true,
   },

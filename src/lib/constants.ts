@@ -1,29 +1,29 @@
 export const APP_STORE_URL = "https://apps.apple.com/app/id6760588166";
 export const APP_ID = "6760588166";
 export const SUPPORT_EMAIL = "burak.alp@me.com";
-export const GITHUB_URL = "https://github.com/buraka/somnia-app";
-export const SITE_URL = "https://buraka.github.io/somnia-app";
+export const GITHUB_URL = "https://github.com/buraka/morpheo-app";
+export const SITE_URL = "https://buraka.github.io/morpheo-app";
 
 export const FEATURES = [
   {
     icon: "🎙️",
     title: "Voice-First Capture",
     description:
-      "Open your eyes, tap record. Somnia transcribes your dream in real-time before it fades away. No typing needed — just speak naturally.",
+      "Open your eyes, tap record. Morpheo transcribes your dream in real-time before it fades away. No typing needed — just speak naturally.",
     size: "wide" as const,
   },
   {
     icon: "🧠",
-    title: "AI Dream Analysis",
+    title: "Three-Lens AI Analysis",
     description:
-      "Powered by advanced AI, every dream gets a deep interpretation — symbols decoded, emotions mapped, themes uncovered.",
+      "Every dream interpreted through three perspectives: Modern Psychology, Jungian archetypes, and Mythological symbolism. No other app does this.",
     size: "normal" as const,
   },
   {
-    icon: "📊",
-    title: "Pattern Detection",
+    icon: "🗺️",
+    title: "Personal Symbol Map",
     description:
-      "See recurring themes emerge across weeks and months. Track your emotional landscape over time.",
+      "Watch your symbol network grow with every dream. Morpheo connects recurring themes, emotions, and archetypes — revealing patterns you never noticed.",
     size: "small" as const,
   },
   {
@@ -47,7 +47,7 @@ export const STEPS = [
     number: "01",
     title: "Wake & Speak",
     description:
-      "The moment you open your eyes, tap record. Somnia captures every detail in your natural voice before the dream fades.",
+      "The moment you open your eyes, tap record. Morpheo captures every detail in your natural voice before the dream fades.",
     color: "purple" as const,
   },
   {

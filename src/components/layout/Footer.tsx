@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex flex-col gap-3">
             <span className="font-[family-name:var(--font-display)] text-lg font-semibold text-soft-white">
-              Somnia
+              Morpheo
             </span>
             <p className="text-sm text-moonlight/40 max-w-xs">
               {t.footer.tagline}
@@ -86,7 +86,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-6 border-t border-white/5 text-center text-xs text-moonlight/30">
-          © {new Date().getFullYear()} Somnia. {t.footer.rights}
+          © {new Date().getFullYear()} Morpheo. {t.footer.rights}
         </div>
       </div>
     </footer>

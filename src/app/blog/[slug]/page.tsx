@@ -19,7 +19,7 @@ export async function generateMetadata({
 
   const en = post.content.en;
   return {
-    title: `${en.title} | Somnia Blog`,
+    title: `${en.title} | Morpheo Blog`,
     description: en.description,
     openGraph: {
       title: en.title,
@@ -35,8 +35,8 @@ export async function generateMetadata({
         description: en.description,
         datePublished: post.publishedAt,
         ...(post.updatedAt && { dateModified: post.updatedAt }),
-        author: { "@type": "Organization", name: "Somnia" },
-        publisher: { "@type": "Organization", name: "Somnia" },
+        author: { "@type": "Organization", name: "Morpheo" },
+        publisher: { "@type": "Organization", name: "Morpheo" },
       }),
     },
   };
@@ -51,7 +51,7 @@ function BlogPostNav({ slug }: { slug: string }) {
             href="/"
             className="text-sm text-moonlight/40 hover:text-soft-white transition-colors"
           >
-            Somnia
+            Morpheo
           </Link>
           <span className="text-moonlight/20">/</span>
           <Link

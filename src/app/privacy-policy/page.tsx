@@ -2,21 +2,21 @@ import { Metadata } from "next";
 import LegalPage from "@/components/layout/LegalPage";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — Somnia",
+  title: "Privacy Policy — Morpheo",
 };
 
 export default function PrivacyPolicy() {
   return (
-    <LegalPage title="Privacy Policy for Somnia">
+    <LegalPage title="Privacy Policy for Morpheo">
       <p><strong>Last updated: March 18, 2026</strong></p>
       <p>
-        Somnia (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we handle information in connection with the Somnia app (&quot;App&quot;).
+        Morpheo (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we handle information in connection with the Morpheo app (&quot;App&quot;).
       </p>
 
       <hr />
 
       <h2>1. Information We Collect</h2>
-      <p>Somnia is designed with privacy in mind. Here is what we collect and how:</p>
+      <p>Morpheo is designed with privacy in mind. Here is what we collect and how:</p>
 
       <h3>Data You Provide</h3>
       <ul>
@@ -63,7 +63,7 @@ export default function PrivacyPolicy() {
       <hr />
 
       <h2>5. Children&apos;s Privacy</h2>
-      <p>Somnia is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+      <p>Morpheo is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
 
       <hr />
 
@@ -76,7 +76,7 @@ export default function PrivacyPolicy() {
       <p>If you have any questions about this Privacy Policy, please contact us at:</p>
       <p>
         <strong>Email</strong>: <a href="mailto:support@somniaapp.com">support@somniaapp.com</a><br />
-        <strong>GitHub</strong>: <a href="https://github.com/buraka/somnia-app">github.com/buraka/somnia-app</a>
+        <strong>GitHub</strong>: <a href="https://github.com/buraka/morpheo-app">github.com/buraka/morpheo-app</a>
       </p>
     </LegalPage>
   );

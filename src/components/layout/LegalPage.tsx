@@ -16,7 +16,7 @@ export default function LegalPage({
             href="/"
             className="font-[family-name:var(--font-display)] text-lg font-semibold text-soft-white hover:text-lavender transition-colors"
           >
-            ← Somnia
+            ← Morpheo
           </Link>
         </div>
       </nav>

@@ -16,7 +16,7 @@ function BlogListing() {
           href="/"
           className="inline-flex items-center gap-1 text-sm text-moonlight/40 hover:text-soft-white transition-colors mb-12"
         >
-          ← Somnia
+          ← Morpheo
         </Link>
 
         {/* Header */}

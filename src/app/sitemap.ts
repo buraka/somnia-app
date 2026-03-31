@@ -3,7 +3,7 @@ import { blogPosts } from "@/lib/blog/posts";
 
 export const dynamic = "force-static";
 
-const BASE = "https://buraka.github.io/somnia-app";
+const BASE = "https://buraka.github.io/morpheo-app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
