@@ -4,83 +4,84 @@ export const translations = {
   en: {
     nav: {
       features: "Features",
-      howItWorks: "How It Works",
+      analysis: "Analysis",
       download: "Download",
-      getApp: "Get the App",
+      getApp: "Download",
     },
     hero: {
-      badge: "Now available on iOS & Apple Watch",
-      title1: "Your dreams,",
-      title2: "decoded three ways",
+      title1: "Speak it before it fades.",
       subtitle:
-        "Speak your dream before it fades. Morpheo analyzes it through Psychology, Jungian, and Mythological lenses — then maps your symbols over time.",
-      cta: "Download Free",
+        "Record your dreams by voice. AI reveals the meaning through three interpretation lenses.",
+      appStoreLabel: "Available on",
       cta2: "Watch Demo",
+      badge: "Free to start · iOS & Apple Watch",
       videoSrc: "/morpheo-app/preview-en.mp4",
     },
-    features: {
-      label: "Features",
-      title: "Everything your subconscious deserves",
+    lenses: {
+      title: "Three perspectives. One dream.",
       items: [
         {
-          icon: "🎙️",
-          title: "Voice-First Capture",
+          title: "Modern Psychology",
           description:
-            "Open your eyes, tap record. Morpheo transcribes your dream in real-time before it fades away. No typing needed — just speak naturally.",
+            "Understand what your subconscious is processing. Modern cognitive analysis focusing on emotional states, daily stressors, and hidden patterns.",
         },
         {
-          icon: "🧠",
-          title: "Three-Lens AI Analysis",
+          title: "Jungian Analysis",
           description:
-            "Every dream interpreted through three perspectives: Modern Psychology, Jungian archetypes, and Mythological symbolism. No other app does this.",
+            "Explore archetypes and the collective unconscious. Discover the hero, the shadow, and the deep symbolic patterns weaving through your sleep.",
         },
         {
-          icon: "🗺️",
-          title: "Personal Symbol Map",
+          title: "Mythological",
           description:
-            "Watch your symbol network grow with every dream. Morpheo connects recurring themes, emotions, and archetypes — revealing patterns you never noticed.",
-        },
-        {
-          icon: "⌚",
-          title: "Apple Watch",
-          description:
-            "Log dreams right from your wrist before you even pick up your phone. Capture every detail in the half-awake moment.",
-        },
-        {
-          icon: "🔒",
-          title: "Completely Private",
-          description:
-            "All data encrypted on-device with iCloud sync. Your dreams stay yours — always.",
+            "Connect your dreams to ancient stories and universal symbols. Find your place in the timeless human narrative through folklore and myth.",
         },
       ],
     },
-    howItWorks: {
-      label: "How It Works",
-      title: "Three steps to clarity",
-      steps: [
+    voice: {
+      title: "Your voice captures what fingers forget.",
+      description:
+        "Wake up. Tap record. Speak your dream. AI handles the rest, ensuring every fleeting detail is preserved before it fades.",
+      pills: ["Auto-transcription", "3 Languages", "Apple Watch"],
+      capturing: "Capturing frequencies...",
+    },
+    symbolMap: {
+      title: "The map your mind draws while you sleep.",
+      description:
+        "Every dream adds to your personal symbol network. See recurring themes and hidden connections that bridge your waking and sleeping worlds.",
+    },
+    features: {
+      title: "Everything a dreamer needs.",
+      items: [
         {
-          title: "Wake & Speak",
-          description:
-            "The moment you open your eyes, tap record. Morpheo captures every detail in your natural voice before the dream fades.",
+          title: "Calendar & Stats",
+          description: "Track streaks, patterns, dream types, and weekly activity through interactive charts.",
         },
         {
-          title: "AI Interprets",
-          description:
-            "Advanced AI analyzes symbols, emotions, and recurring patterns. Each dream gets a personalized, in-depth interpretation.",
+          title: "Smart Reminders",
+          description: "Morning nudge before you forget. Streak protector and weekly summary notifications.",
         },
         {
-          title: "Discover Yourself",
-          description:
-            "Watch your dream map grow. Uncover connections between dreams, track emotional trends, and understand your subconscious.",
+          title: "Apple Watch",
+          description: "Capture dreams from your wrist in the half-awake moment, without the harsh light of your phone.",
+        },
+        {
+          title: "Export & Share",
+          description: "Beautiful dream cards for sharing. Export all dreams as JSON or plain text.",
+        },
+        {
+          title: "Widgets",
+          description: "Home screen and Lock Screen widgets that keep your dream journey just a glance away.",
+        },
+        {
+          title: "iCloud Sync",
+          description: "Dreams sync across all your Apple devices. Your journal travels with you.",
         },
       ],
     },
     cta: {
-      title1: "Your next dream could mean",
-      title2: "everything",
-      subtitle: "Start understanding your subconscious tonight.",
-      appStore: "Download on the",
-      appStoreName: "App Store",
+      title1: "Your dreams are trying to tell you something.",
+      title2: "Let's listen.",
+      button: "Get Morpheo for iOS",
       watchLabel: "Also on",
       watchName: "Apple Watch",
       androidTitle: "Android Coming Soon",
@@ -101,99 +102,95 @@ export const translations = {
       ctaButton: "Download Morpheo",
     },
     footer: {
-      tagline: "Your AI-powered dream journal for iOS & Apple Watch.",
-      app: "App",
       download: "Download",
-      features: "Features",
-      legal: "Legal",
-      privacyPolicy: "Privacy Policy",
-      terms: "Terms of Use",
+      privacyPolicy: "Privacy",
+      terms: "Terms",
       support: "Support",
       contact: "Contact",
-      sendEmail: "Send Email",
       rights: "All rights reserved.",
     },
   },
   tr: {
     nav: {
       features: "Özellikler",
-      howItWorks: "Nasıl Çalışır",
+      analysis: "Analiz",
       download: "İndir",
-      getApp: "Uygulamayı İndir",
+      getApp: "İndir",
     },
     hero: {
-      badge: "iOS ve Apple Watch'ta yayında",
-      title1: "Rüyalarınız,",
-      title2: "üç farklı gözle çözüldü",
+      title1: "Kaybolmadan önce söyle.",
       subtitle:
-        "Uyanır uyanmaz rüyanızı anlatın. Morpheo Psikoloji, Jungyen ve Mitoloji perspektiflerinden yorumlar — sembollerinizi zamanla haritalandırır.",
-      cta: "Ücretsiz İndir",
+        "Rüyalarınızı sesle kaydedin. Yapay zeka, üç farklı yorum perspektifinden anlamını ortaya çıkarsın.",
+      appStoreLabel: "Şuradan indirin:",
       cta2: "Demoyu İzle",
+      badge: "Ücretsiz · iOS & Apple Watch",
       videoSrc: "/morpheo-app/preview-tr.mp4",
     },
-    features: {
-      label: "Özellikler",
-      title: "Bilinçaltınızın hak ettiği her şey",
+    lenses: {
+      title: "Üç bakış açısı. Bir rüya.",
       items: [
         {
-          icon: "🎙️",
-          title: "Sesle Kayıt",
+          title: "Modern Psikoloji",
           description:
-            "Gözlerinizi açın, kayda basın. Morpheo rüyanızı kaybolmadan gerçek zamanlı olarak yazıya döker. Yazmaya gerek yok — sadece doğal konuşun.",
+            "Bilinçaltınızın ne işlediğini anlayın. Duygusal durumunuza, günlük streslerinize ve gizli örüntülerinize odaklanan modern bilişsel analiz.",
         },
         {
-          icon: "🧠",
-          title: "Üç Bakış Açılı AI Analizi",
+          title: "Jungyen Analiz",
           description:
-            "Her rüya üç perspektiften yorumlanır: Modern Psikoloji, Jungyen arketipler ve Mitolojik sembolizm. Bunu yapan başka uygulama yok.",
+            "Arketipleri ve kolektif bilinçdışını keşfedin. Uykunuzda dokunan kahramanı, gölgeyi ve derin sembolik kalıpları ortaya çıkarın.",
         },
         {
-          icon: "🗺️",
-          title: "Kişisel Sembol Haritası",
+          title: "Mitolojik",
           description:
-            "Her rüyayla sembol ağınızın büyümesini izleyin. Morpheo tekrarlayan temaları, duyguları ve arketipleri birbirine bağlar.",
-        },
-        {
-          icon: "⌚",
-          title: "Apple Watch",
-          description:
-            "Telefonunuza uzanmadan bileğinizden rüya kaydedin. Yarı uyanık anında her detayı yakalayın.",
-        },
-        {
-          icon: "🔒",
-          title: "Tamamen Gizli",
-          description:
-            "Tüm veriler cihazda şifrelenir, iCloud ile senkronize olur. Rüyalarınız her zaman sizin kalır.",
+            "Rüyalarınızı kadim hikayeler ve evrensel sembollerle bağlayın. Folklor ve mit aracılığıyla zamansız insan anlatısındaki yerinizi bulun.",
         },
       ],
     },
-    howItWorks: {
-      label: "Nasıl Çalışır",
-      title: "Netliğe üç adım",
-      steps: [
+    voice: {
+      title: "Sesiniz, parmaklarınızın unuttuğunu yakalar.",
+      description:
+        "Uyanın. Kayda basın. Rüyanızı anlatın. Yapay zeka gerisini halleder — her uçucu detay kaybolmadan korunur.",
+      pills: ["Otomatik transkripsiyon", "3 Dil", "Apple Watch"],
+      capturing: "Frekanslar yakalanıyor...",
+    },
+    symbolMap: {
+      title: "Siz uyurken zihninizin çizdiği harita.",
+      description:
+        "Her rüya kişisel sembol ağınıza eklenir. Uyanık ve uyuyan dünyalarınız arasında köprü kuran tekrarlayan temaları ve gizli bağlantıları görün.",
+    },
+    features: {
+      title: "Bir rüya görücünün ihtiyacı olan her şey.",
+      items: [
         {
-          title: "Uyan ve Anlat",
-          description:
-            "Gözlerinizi açtığınız an kayda basın. Morpheo, rüya solmadan önce doğal sesinizle her detayı yakalar.",
+          title: "Takvim & İstatistikler",
+          description: "Serileri, örüntüleri, rüya türlerini ve haftalık aktiviteyi interaktif grafiklerle takip edin.",
         },
         {
-          title: "Yapay Zeka Yorumlar",
-          description:
-            "Gelişmiş yapay zeka sembolleri, duyguları ve tekrarlayan örüntüleri analiz eder. Her rüya kişiselleştirilmiş, derinlemesine bir yorum alır.",
+          title: "Akıllı Hatırlatmalar",
+          description: "Unutmadan sabah hatırlatması. Seri koruyucu ve haftalık özet bildirimleri.",
         },
         {
-          title: "Kendini Keşfet",
-          description:
-            "Rüya haritanızın büyümesini izleyin. Rüyalar arasındaki bağlantıları keşfedin, duygusal eğilimleri takip edin ve bilinçaltınızı anlayın.",
+          title: "Apple Watch",
+          description: "Yarı uyanık anında, telefonunuzun sert ışığı olmadan bileğinizden rüya kaydedin.",
+        },
+        {
+          title: "Dışa Aktar & Paylaş",
+          description: "Paylaşım için güzel rüya kartları. Tüm rüyaları JSON veya düz metin olarak dışa aktarın.",
+        },
+        {
+          title: "Widget'lar",
+          description: "Ana ekran ve Kilit Ekranı widget'ları — rüya yolculuğunuz bir bakışta.",
+        },
+        {
+          title: "iCloud Senkron",
+          description: "Rüyalar tüm Apple cihazlarınızda senkronize olur. Günlüğünüz sizinle seyahat eder.",
         },
       ],
     },
     cta: {
-      title1: "Bir sonraki rüyanız",
-      title2: "her şeyi değiştirebilir",
-      subtitle: "Bu gece bilinçaltınızı anlamaya başlayın.",
-      appStore: "Şuradan indirin:",
-      appStoreName: "App Store",
+      title1: "Rüyalarınız size bir şey söylemeye çalışıyor.",
+      title2: "Dinleyelim.",
+      button: "Morpheo'yu iOS'ta İndir",
       watchLabel: "Ayrıca",
       watchName: "Apple Watch",
       androidTitle: "Android Yakında",
@@ -214,99 +211,95 @@ export const translations = {
       ctaButton: "Morpheo'yu İndir",
     },
     footer: {
-      tagline: "iOS ve Apple Watch için yapay zeka destekli rüya günlüğü.",
-      app: "Uygulama",
       download: "İndir",
-      features: "Özellikler",
-      legal: "Yasal",
-      privacyPolicy: "Gizlilik Politikası",
-      terms: "Kullanım Koşulları",
+      privacyPolicy: "Gizlilik",
+      terms: "Koşullar",
       support: "Destek",
       contact: "İletişim",
-      sendEmail: "E-posta Gönder",
       rights: "Tüm hakları saklıdır.",
     },
   },
   es: {
     nav: {
       features: "Funciones",
-      howItWorks: "Cómo Funciona",
+      analysis: "Análisis",
       download: "Descargar",
-      getApp: "Obtener App",
+      getApp: "Descargar",
     },
     hero: {
-      badge: "Disponible en iOS y Apple Watch",
-      title1: "Tus sueños,",
-      title2: "descifrados de tres formas",
+      title1: "Dilo antes de que se desvanezca.",
       subtitle:
-        "Habla tu sueño antes de que se desvanezca. Morpheo lo analiza desde Psicología, Jungiana y Mitología — y mapea tus símbolos con el tiempo.",
-      cta: "Descarga Gratis",
+        "Graba tus sueños con la voz. La IA revela el significado a través de tres lentes de interpretación.",
+      appStoreLabel: "Disponible en",
       cta2: "Ver Demo",
+      badge: "Gratis · iOS & Apple Watch",
       videoSrc: "/morpheo-app/preview-es.mp4",
     },
-    features: {
-      label: "Funciones",
-      title: "Todo lo que tu subconsciente merece",
+    lenses: {
+      title: "Tres perspectivas. Un sueño.",
       items: [
         {
-          icon: "🎙️",
-          title: "Captura por Voz",
+          title: "Psicología Moderna",
           description:
-            "Abre los ojos, toca grabar. Morpheo transcribe tu sueño en tiempo real antes de que se desvanezca. Sin necesidad de escribir — solo habla naturalmente.",
+            "Comprende lo que procesa tu subconsciente. Análisis cognitivo moderno enfocado en estados emocionales, estrés diario y patrones ocultos.",
         },
         {
-          icon: "🧠",
-          title: "Análisis IA con Tres Lentes",
+          title: "Análisis Jungiano",
           description:
-            "Cada sueño interpretado desde tres perspectivas: Psicología Moderna, arquetipos Jungianos y simbolismo Mitológico. Ninguna otra app hace esto.",
+            "Explora arquetipos y el inconsciente colectivo. Descubre al héroe, la sombra y los profundos patrones simbólicos tejidos en tu sueño.",
         },
         {
-          icon: "🗺️",
-          title: "Mapa de Símbolos Personal",
+          title: "Mitológico",
           description:
-            "Observa cómo crece tu red de símbolos con cada sueño. Morpheo conecta temas recurrentes, emociones y arquetipos — revelando patrones ocultos.",
-        },
-        {
-          icon: "⌚",
-          title: "Apple Watch",
-          description:
-            "Registra sueños desde tu muñeca sin tocar el teléfono. Captura cada detalle en ese momento entre el sueño y la vigilia.",
-        },
-        {
-          icon: "🔒",
-          title: "Completamente Privado",
-          description:
-            "Todos los datos encriptados en el dispositivo con sincronización iCloud. Tus sueños siempre son tuyos.",
+            "Conecta tus sueños con historias antiguas y símbolos universales. Encuentra tu lugar en la narrativa humana eterna a través del folclore y el mito.",
         },
       ],
     },
-    howItWorks: {
-      label: "Cómo Funciona",
-      title: "Tres pasos hacia la claridad",
-      steps: [
+    voice: {
+      title: "Tu voz captura lo que los dedos olvidan.",
+      description:
+        "Despierta. Toca grabar. Habla tu sueño. La IA se encarga del resto, preservando cada detalle fugaz antes de que se desvanezca.",
+      pills: ["Transcripción automática", "3 Idiomas", "Apple Watch"],
+      capturing: "Capturando frecuencias...",
+    },
+    symbolMap: {
+      title: "El mapa que tu mente dibuja mientras duermes.",
+      description:
+        "Cada sueño se añade a tu red personal de símbolos. Descubre temas recurrentes y conexiones ocultas que unen tu mundo despierto y dormido.",
+    },
+    features: {
+      title: "Todo lo que un soñador necesita.",
+      items: [
         {
-          title: "Despierta y Habla",
-          description:
-            "En el momento que abras los ojos, toca grabar. Morpheo captura cada detalle con tu voz natural antes de que el sueño se desvanezca.",
+          title: "Calendario y Estadísticas",
+          description: "Rastrea rachas, patrones, tipos de sueños y actividad semanal con gráficos interactivos.",
         },
         {
-          title: "La IA Interpreta",
-          description:
-            "La IA avanzada analiza símbolos, emociones y patrones recurrentes. Cada sueño recibe una interpretación personalizada y profunda.",
+          title: "Recordatorios Inteligentes",
+          description: "Aviso matutino antes de que olvides. Protector de rachas y resúmenes semanales.",
         },
         {
-          title: "Descúbrete",
-          description:
-            "Observa cómo crece tu mapa de sueños. Descubre conexiones entre sueños, rastrea tendencias emocionales y comprende tu subconsciente.",
+          title: "Apple Watch",
+          description: "Captura sueños desde tu muñeca en ese momento entre el sueño y la vigilia.",
+        },
+        {
+          title: "Exportar y Compartir",
+          description: "Hermosas tarjetas de sueños para compartir. Exporta todos los sueños como JSON o texto.",
+        },
+        {
+          title: "Widgets",
+          description: "Widgets para pantalla de inicio y pantalla de bloqueo — tu viaje onírico a un vistazo.",
+        },
+        {
+          title: "iCloud Sync",
+          description: "Los sueños se sincronizan en todos tus dispositivos Apple. Tu diario viaja contigo.",
         },
       ],
     },
     cta: {
-      title1: "Tu próximo sueño podría significar",
-      title2: "todo",
-      subtitle: "Empieza a entender tu subconsciente esta noche.",
-      appStore: "Descárgalo en",
-      appStoreName: "App Store",
+      title1: "Tus sueños están intentando decirte algo.",
+      title2: "Escuchemos.",
+      button: "Obtener Morpheo para iOS",
       watchLabel: "También en",
       watchName: "Apple Watch",
       androidTitle: "Android Próximamente",
@@ -327,16 +320,11 @@ export const translations = {
       ctaButton: "Descargar Morpheo",
     },
     footer: {
-      tagline: "Tu diario de sueños con IA para iOS y Apple Watch.",
-      app: "App",
       download: "Descargar",
-      features: "Funciones",
-      legal: "Legal",
-      privacyPolicy: "Política de Privacidad",
-      terms: "Términos de Uso",
+      privacyPolicy: "Privacidad",
+      terms: "Términos",
       support: "Soporte",
       contact: "Contacto",
-      sendEmail: "Enviar Email",
       rights: "Todos los derechos reservados.",
     },
   },

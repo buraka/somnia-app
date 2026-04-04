@@ -8,86 +8,55 @@ export default function Footer() {
   const { t } = useLocale();
 
   return (
-    <footer className="border-t border-white/5 bg-void">
-      <div className="mx-auto max-w-6xl px-6 py-12">
-        <div className="flex flex-col md:flex-row justify-between gap-8">
-          {/* Brand */}
-          <div className="flex flex-col gap-3">
-            <span className="font-[family-name:var(--font-display)] text-lg font-semibold text-soft-white">
-              Morpheo
-            </span>
-            <p className="text-sm text-moonlight/40 max-w-xs">
-              {t.footer.tagline}
-            </p>
+    <footer className="bg-background w-full py-12 px-8 border-t border-white/5">
+      <div className="flex flex-col md:flex-row justify-between items-center gap-8 max-w-7xl mx-auto">
+        <div className="flex flex-col gap-2">
+          <div className="font-[family-name:var(--font-display)] text-lg text-on-surface">
+            Morpheo
           </div>
-
-          {/* Links */}
-          <div className="flex gap-16">
-            <div className="flex flex-col gap-3">
-              <span className="text-xs font-medium text-moonlight/40 uppercase tracking-wider">
-                {t.footer.app}
-              </span>
-              <a
-                href={APP_STORE_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-sm text-moonlight/60 hover:text-soft-white transition-colors"
-              >
-                {t.footer.download}
-              </a>
-              <a
-                href="#features"
-                className="text-sm text-moonlight/60 hover:text-soft-white transition-colors"
-              >
-                {t.footer.features}
-              </a>
-              <Link
-                href="/blog"
-                className="text-sm text-moonlight/60 hover:text-soft-white transition-colors"
-              >
-                {t.blog.title}
-              </Link>
-            </div>
-            <div className="flex flex-col gap-3">
-              <span className="text-xs font-medium text-moonlight/40 uppercase tracking-wider">
-                {t.footer.legal}
-              </span>
-              <Link
-                href="/privacy-policy"
-                className="text-sm text-moonlight/60 hover:text-soft-white transition-colors"
-              >
-                {t.footer.privacyPolicy}
-              </Link>
-              <Link
-                href="/terms"
-                className="text-sm text-moonlight/60 hover:text-soft-white transition-colors"
-              >
-                {t.footer.terms}
-              </Link>
-              <Link
-                href="/support"
-                className="text-sm text-moonlight/60 hover:text-soft-white transition-colors"
-              >
-                {t.footer.support}
-              </Link>
-            </div>
-            <div className="flex flex-col gap-3">
-              <span className="text-xs font-medium text-moonlight/40 uppercase tracking-wider">
-                {t.footer.contact}
-              </span>
-              <a
-                href={`mailto:${SUPPORT_EMAIL}`}
-                className="text-sm text-moonlight/60 hover:text-soft-white transition-colors"
-              >
-                {t.footer.sendEmail}
-              </a>
-            </div>
-          </div>
+          <p className="text-xs uppercase tracking-[0.1em] text-on-surface-variant">
+            © {new Date().getFullYear()} Morpheo. {t.footer.rights}
+          </p>
         </div>
 
-        <div className="mt-12 pt-6 border-t border-white/5 text-center text-xs text-moonlight/30">
-          © {new Date().getFullYear()} Morpheo. {t.footer.rights}
+        <div className="flex flex-wrap gap-8 justify-center">
+          <a
+            href={APP_STORE_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs uppercase tracking-[0.1em] text-on-surface-variant hover:text-on-surface transition-colors"
+          >
+            {t.footer.download}
+          </a>
+          <Link
+            href="/privacy-policy"
+            className="text-xs uppercase tracking-[0.1em] text-on-surface-variant hover:text-on-surface transition-colors"
+          >
+            {t.footer.privacyPolicy}
+          </Link>
+          <Link
+            href="/terms"
+            className="text-xs uppercase tracking-[0.1em] text-on-surface-variant hover:text-on-surface transition-colors"
+          >
+            {t.footer.terms}
+          </Link>
+          <Link
+            href="/support"
+            className="text-xs uppercase tracking-[0.1em] text-on-surface-variant hover:text-on-surface transition-colors"
+          >
+            {t.footer.support}
+          </Link>
+          <a
+            href={`mailto:${SUPPORT_EMAIL}`}
+            className="text-xs uppercase tracking-[0.1em] text-on-surface-variant hover:text-on-surface transition-colors"
+          >
+            {t.footer.contact}
+          </a>
         </div>
+
+        <p className="text-[10px] uppercase tracking-[0.15em] text-on-surface-variant/50">
+          Made by Burak Alparslan
+        </p>
       </div>
     </footer>
   );
